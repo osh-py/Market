@@ -52,9 +52,6 @@ print("\n")
 print(f"Toplam: {toplam}₺")
 
 while True:
-    print("1 -> Kredi Kartı\n2 -> Nakit")
-    odeme_secenegi = input("Ödeme seçeneği 1 | 2: ")
-    
     odeme = int(input("Öde: "))
     if odeme<toplam:
         print("Yetersiz Bakiye")
