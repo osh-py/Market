@@ -1,4 +1,4 @@
-
+import os
 urun_list = []
 urun_fiyat_list = []
 while True:
@@ -66,3 +66,5 @@ while True:
         print(f"Para üstünüz -> {paraustu}₺")
         print("Alişveriş için teşekkürler")
         break
+
+os.system("pause")
