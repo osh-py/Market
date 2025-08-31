@@ -36,7 +36,7 @@ while True:
             price = ""
             for urun,fiyat in urun_fiyat_name_list:
                 if urun_sec == urun:
-                    print(f"{urun_adedi} adet elmanın fiyati : {fiyat*int(urun_adedi)}₺")
+                    print(f"{urun_adedi} adet {urun} fiyati : {fiyat*int(urun_adedi)}₺")
                     toplam+=fiyat*int(urun_adedi)
   
             break
