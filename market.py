@@ -32,7 +32,14 @@ while True:
     while True:
         urun_sec = input("Ürün adı: ").lower()
         if urun_sec in urun_list:
-            urun_adedi = input("Ürün adedi: ")
+            while True:
+                try:
+                    urun_adedi = int(input("Ürün adedi: "))
+                    break
+                except:
+                    print("lütfen bir sayi giriniz!\n")
+                
+
             price = ""
             for urun,fiyat in urun_fiyat_name_list:
                 if urun_sec == urun:
