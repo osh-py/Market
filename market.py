@@ -71,6 +71,6 @@ while True:
         print("Alişveriş için teşekkürler")
         break
 
-
+price("sa")
 print("\nAlişveriş biti!")
 os.system("pause")
