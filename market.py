@@ -71,4 +71,8 @@ while True:
         print("Alişveriş için teşekkürler")
         break
 
+<<<<<<< HEAD
+=======
+print("\nAlişveriş biti!")
+>>>>>>> 7261060d845b1fb9fdcbc89d63853ef7497f41e3
 os.system("pause")
